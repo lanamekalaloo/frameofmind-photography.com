@@ -1,0 +1,109 @@
+body 
+{
+    font-family: 'Georgia', serif;
+    background: url('mekaz.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f9f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 235, 205, 0); /* light vintage paper color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 
+{
+    font-family:'Georgia', serif;
+    font-size: 2.5em;
+    color: #84b6f452;
+    margin: 0;
+}
+header h2
+{
+    font-family:'Georgia', serif;
+    font-size: 2.2em;
+    color: #84b6f46d;
+    margin: 0;
+}
+
+nav ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3b2b2b;
+    font-weight: bold;
+}
+
+nav ul li a:hover
+ {
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgba(255, 248, 220, 0); /* vintage paper color */
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 
+{
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    border-bottom: 1px solid #063b07;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+footer 
+{
+    background-color: rgba(255, 235, 205, 0); /* light vintage paper color */
+    text-align: center;
+    padding: 10px;
+}
+form 
+{
+    font-family: 'Georgia', serif;
+}
+
+form label 
+{
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea 
+{
+    width: 40%;
+    padding: 1%;
+    margin-bottom: 20px;
+    border: 1px solid #3b2b2b;
+    border-radius: 5px;
+}
+
+form button 
+{
+    background-color: #3b2b2b;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5b4b4b;
+}
